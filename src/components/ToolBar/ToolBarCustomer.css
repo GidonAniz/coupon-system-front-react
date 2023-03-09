@@ -1,0 +1,50 @@
+.toolbarcustomer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(19, 19, 21);
+    padding: 10px;
+  }
+  
+  .toolbar__button {
+    color: #fff;
+    text-decoration: none;
+    padding-left: 30px; 
+    padding-right: 30px;
+    background-color: transparent;
+    border: none;
+  }
+  
+  .toolbar__button:active {
+    color: rgb(243, 8, 8);
+  }
+
+.toolbar__sentence {
+  background-color: #ffd700;
+  border-radius: 10px;
+  animation: linear infinite, descend 2s ease-in-out 1;
+  animation-fill-mode: forwards;
+  text-align: center;
+  padding: 20px;
+}
+
+@keyframes twinkle {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes descend {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}

@@ -1,0 +1,21 @@
+.toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(19, 19, 21);
+    color: #fff;
+    padding: 30px;
+  }
+  
+  .toolbar__link {
+    color: #fff;
+    text-decoration: none;
+    padding-left: 30px; 
+    padding-right: 30px;
+  }
+
+  .toolbar__right-text{
+    padding-left: 500px; 
+  }
+    
+  

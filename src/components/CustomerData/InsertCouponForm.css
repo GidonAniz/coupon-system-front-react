@@ -1,0 +1,30 @@
+body {
+    background-color: #f8f9fa;
+}
+.coupon-data-form {
+    width: 50%; 
+    padding: 10px;
+    color: #343a40;
+    border-radius: 5px;
+  }
+  
+  .coupon-data-form__label {
+    font-size: 1em;
+    margin-bottom: 1px;
+    display: block;
+  }
+  
+  .coupon-data-form__input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    color: #343a40;
+  }
+  .coupon-data-form__button {
+    float: right;
+    margin-top: 10px;
+    margin-right: 1px;
+  }
