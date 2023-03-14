@@ -1,5 +1,5 @@
 
 
 <p align="center">
-  <img src="https://github.com/GidonAniz/coupon-system-front-react/blob/main/coupon%20system%20app.gif" width="256" height="455">
+  <img src="https://github.com/GidonAniz/coupon-system-front-react/blob/main/coupon%20system%20app.gif">
 </p>
